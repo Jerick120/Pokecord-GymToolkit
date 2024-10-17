@@ -11,28 +11,28 @@
                 "rarity": []
             },
             "illegal": {
-                "types": ["Fire","Grass"],
+                "types": [],
                 "species": [],
                 "rarity": []
             }
         },
         "moves": {
             "legal": {
-                "types": [],
+                "types": ["Normal","Grass","Fire","Dark","Water"],
                 "names": []
             },
             "illegal": {
-                "types": ["Normal"],
+                "types":  ["Normal", "Fire", "Fighting" , "Water", "Flying", "Grass", "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
                 "names": ["baton-pass","minimize","destiny-bond","revival-blessing","earthquake","ice-beam"]
             }
         },
         "abilities": {
-            "legal": [],
+            "legal": ["Zero To Hero"],
             "illegal": ["Shadow Tag"]
         },
         "items": {
             "legal": ["red-card"],
-            "illegal": []
+            "illegal": ["hearthflame-mask"]
         }
     }
 }
