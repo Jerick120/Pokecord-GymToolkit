@@ -3,15 +3,15 @@
         "pokemon": {
             "minLevel": 10,
             "maxLevel": 100,
-            "minPokemon": 4,
+            "minPokemon": 1,
             "maxPokemon": 6,
             "legal": {
-                "types": ["Fire","Water","Grass"],
+                "types": [],
                 "species": [],
                 "rarity": []
             },
             "illegal": {
-                "types": ["Normal", "Fighting" ,"Flying", "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
+                "types": ["Normal", "Fighting" ,"Flying", "Poison", "Electric", "Ground", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
                 "species": ["Volcanion","Scovilain","Ogerpon","Lotad","Lombre","Ludicolo"],
                 "rarity": []
             }
@@ -22,7 +22,7 @@
                 "names": []
             },
             "illegal": {
-                "types": [],
+                "types": ["Normal"],
                 "names": ["baton-pass","minimize","destiny-bond","revival-blessing","earthquake","ice-beam"]
             }
         },
