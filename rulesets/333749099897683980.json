@@ -1,0 +1,39 @@
+{
+    "1296492335529463919": {
+        "pokemon": {
+            "minLevel": 90,
+            "maxLevel": 100,
+            "minPokemon": 4,
+            "maxPokemon": 6,
+            "allowedGens": [],
+            "legal": {
+                "types": ["Fire","Water","Grass"],
+                "species": [],
+                "rarity": ["common","regional","ultrabeast","special","mythical"]
+            },
+            "illegal": {
+                "types": ["Ground"],
+                "species": [],
+                "rarity": []
+            }
+        },
+        "moves": {
+            "legal": {
+                "types": [],
+                "names": []
+            },
+            "illegal": {
+                "types": [],
+                "names": ["baton-pass","minimize","double-team"]
+            }
+        },
+        "abilities": {
+            "legal": [],
+            "illegal": ["Shadow Tag","Sand Veil","Snow Cloak","Orichalcum Pulse","Hadron Engine","Arena Trap","Multitype"]
+        },
+        "items": {
+            "legal": [],
+            "illegal": ["leftovers","shell-bell","black-sludge"]
+        }
+    }
+}
