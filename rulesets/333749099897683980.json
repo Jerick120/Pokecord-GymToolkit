@@ -5,7 +5,7 @@
             "maxLevel": 100,
             "minPokemon": 4,
             "maxPokemon": 6,
-            "allowedgens": [],
+            "allowedGens": [],
             "legal": {
                 "types": ["Fire","Water","Grass"],
                 "species": [],
