@@ -1,9 +1,48 @@
 {
+    "1257054038332276860": {
+        "description": "This is for the test channel",
+        "pokemon": {
+            "minLevel": 1,
+            "maxLevel": 100,
+            "minPokemon": 1,
+            "maxPokemon": 6,
+            "allowedGens": [],
+            "legal": {
+                "types": ["Fire","Water","Grass"],
+                "species": [],
+                "rarity": ["common","regional","special","mythical","paradox"]
+            },
+            "illegal": {
+                "types": ["Ground"],
+                "species": ["Charizard"],
+                "rarity": []
+            }
+        },
+        "moves": {
+            "legal": {
+                "types": [],
+                "names": []
+            },
+            "illegal": {
+                "types": [],
+                "names": ["baton-pass","minimize","double-team"]
+            }
+        },
+        "abilities": {
+            "legal": [],
+            "illegal": ["Shadow Tag","Sand Veil","Snow Cloak","Orichalcum Pulse","Hadron Engine","Arena Trap","Multitype"]
+        },
+        "items": {
+            "legal": [],
+            "illegal": ["leftovers","shell-bell","black-sludge"]
+        }
+    },
     "1296492335529463919": {
+        "description":"Thread: Custom Battle #1",
         "pokemon": {
             "minLevel": 90,
             "maxLevel": 100,
-            "minPokemon": 1,
+            "minPokemon": 3,
             "maxPokemon": 6,
             "allowedGens": [],
             "legal": {
