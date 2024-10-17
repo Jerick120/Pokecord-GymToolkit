@@ -1,8 +1,8 @@
 {
     "1257054038332276860": {
         "pokemon": {
-            "minLevel": 100,
-            "maxLevel": 100,
+            "minLevel": 44,
+            "maxLevel": 44,
             "minPokemon": 1,
             "maxPokemon": 1,
             "legal": {
@@ -19,11 +19,11 @@
         "moves": {
             "legal": {
                 "types": [],
-                "names": ["jet-punch"]
+                "names": ["aqua-jet"]
             },
             "illegal": {
                 "types":  [],
-                "names": ["acrobatics"]
+                "names": []
             }
         },
         "abilities": {
