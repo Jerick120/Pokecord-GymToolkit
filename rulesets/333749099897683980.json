@@ -1,12 +1,12 @@
 {
     "1257054038332276860": {
         "pokemon": {
-            "minLevel": 10,
+            "minLevel": 100,
             "maxLevel": 100,
             "minPokemon": 1,
-            "maxPokemon": 6,
+            "maxPokemon": 1,
             "legal": {
-                "types": ["Normal", "Fire", "Fighting" , "Water", "Flying", "Grass", "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
+                "types": [],
                 "species": [],
                 "rarity": []
             },
@@ -18,21 +18,21 @@
         },
         "moves": {
             "legal": {
-                "types": ["Normal","Grass","Fire","Dark","Water"],
-                "names": []
+                "types": [],
+                "names": ["jet-punch"]
             },
             "illegal": {
-                "types":  ["Normal", "Fire", "Fighting" , "Water", "Flying", "Grass", "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
-                "names": ["baton-pass","minimize","destiny-bond","revival-blessing","earthquake","ice-beam"]
+                "types":  [],
+                "names": ["acrobatics"]
             }
         },
         "abilities": {
-            "legal": ["Zero To Hero"],
-            "illegal": ["Shadow Tag"]
+            "legal": [],
+            "illegal": []
         },
         "items": {
-            "legal": ["red-card"],
-            "illegal": ["hearthflame-mask"]
+            "legal": [],
+            "illegal": []
         }
     }
 }
