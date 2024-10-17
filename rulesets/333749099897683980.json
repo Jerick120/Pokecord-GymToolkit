@@ -1,7 +1,7 @@
 {
     "1257054038332276860": {
         "pokemon": {
-            "minLevel": 90,
+            "minLevel": 1,
             "maxLevel": 100,
             "minPokemon": 4,
             "maxPokemon": 6,
