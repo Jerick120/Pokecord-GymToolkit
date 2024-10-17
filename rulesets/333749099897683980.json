@@ -1,5 +1,6 @@
 {
     "1257054038332276860": {
+        "description": "This is for the test channel",
         "pokemon": {
             "minLevel": 1,
             "maxLevel": 100,
@@ -37,6 +38,7 @@
         }
     },
     "1296492335529463919": {
+        "description":"Thread: Custom Battle #1",
         "pokemon": {
             "minLevel": 90,
             "maxLevel": 100,
