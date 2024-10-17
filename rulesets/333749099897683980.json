@@ -12,7 +12,7 @@
             },
             "illegal": {
                 "types": ["Fairy"],
-                "species": ["Archaludon "],
+                "species": ["Archaludon"],
                 "rarity": ["legendary","paradox"]
             }
         },
