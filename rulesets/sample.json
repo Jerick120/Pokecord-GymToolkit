@@ -5,6 +5,7 @@
             "maxLevel": 100,
             "minPokemon": 1,
             "maxPokemon": 6,
+            "allowedGens": [],
             "legal": {
                 "types": [],
                 "species": [],
