@@ -1,19 +1,19 @@
 {
     "1257054038332276860": {
         "pokemon": {
-            "minLevel": 45,
-            "maxLevel": 50,
+            "minLevel": 90,
+            "maxLevel": 100,
             "minPokemon": 4,
             "maxPokemon": 6,
             "legal": {
-                "types": [],
+                "types": ["Fire","Water","Grass"],
                 "species": [],
                 "rarity": []
             },
             "illegal": {
-                "types": ["Fairy"],
-                "species": ["Archaludon"],
-                "rarity": ["legendary","paradox"]
+                "types": ["Normal", "Fighting" ,"Flying", "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
+                "species": ["Volcanion","Scovilain","Ogerpon","Lotad","Lombre","Ludicolo"],
+                "rarity": []
             }
         },
         "moves": {
@@ -22,8 +22,8 @@
                 "names": []
             },
             "illegal": {
-                "types": ["Fairy"],
-                "names": ["baton-pass","minimize","outrage","draco-meteor","destiny-bond","revival-blessing"]
+                "types": [],
+                "names": ["baton-pass","minimize","destiny-bond","revival-blessing","earthquake","ice-beam"]
             }
         },
         "abilities": {
@@ -31,8 +31,8 @@
             "illegal": ["Shadow Tag"]
         },
         "items": {
-            "legal": [],
-            "illegal": ["garchompite","salamencite","dragonium-z","kommonium-z"]
+            "legal": ["red-card"],
+            "illegal": []
         }
     }
 }
