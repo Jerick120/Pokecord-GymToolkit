@@ -52,7 +52,9 @@ for (const f of dir) {
         pokemon: ['types', 'species', 'rarity'],
         moves: ['types', 'names']
     }
-    for (const c of Object.keys(data)) {
+    const channelIds = Object.keys(data)
+    if (channelIds.length > 25) throw (`Too Many Channels`)
+    for (const c of channelIds) {
         const checkChannelName = c.split('').filter(f => arrLower.includes(f) || arrUpper.includes(f))
         if (checkChannelName.length) throw ('Invalid Channel ID')
         const ruleset = data[c]
