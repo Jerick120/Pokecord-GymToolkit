@@ -6,13 +6,13 @@
             "minPokemon": 1,
             "maxPokemon": 6,
             "legal": {
-                "types": [],
+                "types": ["Normal", "Fire", "Fighting" , "Water", "Flying", "Grass", "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
                 "species": [],
                 "rarity": []
             },
             "illegal": {
-                "types": ["Normal", "Fighting" ,"Flying", "Poison", "Electric", "Ground", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
-                "species": ["Volcanion","Scovilain","Ogerpon","Lotad","Lombre","Ludicolo"],
+                "types": ["Fire","Grass"],
+                "species": [],
                 "rarity": []
             }
         },
