@@ -13,7 +13,7 @@
             },
             "illegal": {
                 "types": ["Ground"],
-                "species": [],
+                "species": ["Charizard"],
                 "rarity": []
             }
         },
