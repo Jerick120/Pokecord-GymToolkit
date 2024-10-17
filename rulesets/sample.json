@@ -1,5 +1,6 @@
 {
     "channelId": {
+        "description": "",
         "pokemon": {
             "minLevel": 1,
             "maxLevel": 100,
