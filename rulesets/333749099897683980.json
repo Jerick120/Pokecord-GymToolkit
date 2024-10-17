@@ -9,7 +9,7 @@
             "allowedGens": [],
             "legal": {
                 "types": ["Fire","Water","Grass"],
-                "species": [],
+                "species": ["Charizard"],
                 "rarity": ["common","regional","special","mythical","paradox"]
             },
             "illegal": {
@@ -30,7 +30,7 @@
         },
         "abilities": {
             "legal": [],
-            "illegal": ["Shadow Tag","Sand Veil","Snow Cloak","Orichalcum Pulse","Hadron Engine","Arena Trap","Multitype"]
+            "illegal": ["Shadow Tag","Sand Veil","Snow Cloak","Orichalcum Pulse","Hadron Engine","Arena Trap","Multitype","Magician"]
         },
         "items": {
             "legal": [],
