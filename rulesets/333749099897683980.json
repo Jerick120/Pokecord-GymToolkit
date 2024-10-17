@@ -3,17 +3,17 @@
         "pokemon": {
             "minLevel": 1,
             "maxLevel": 100,
-            "minPokemon": 4,
+            "minPokemon": 1,
             "maxPokemon": 6,
             "allowedGens": [1,2,3,4,6,7,8,9],
             "legal": {
-                "types": ["Fire","Water","Grass"],
-                "species": [],
-                "rarity": ["common","regional","ultrabeast","special","mythical","paradox"]
+                "types": ["Fire","Water","Grass","Normal"],
+                "species": ["Eternatus","Ogerpon","Zygarde"],
+                "rarity": ["common","regional","special","mythical","paradox"]
             },
             "illegal": {
-                "types": ["Ground"],
-                "species": [],
+                "types": ["Ground","Dragon"],
+                "species": ["Ogerpon"],
                 "rarity": []
             }
         },
