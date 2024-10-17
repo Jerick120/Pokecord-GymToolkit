@@ -1,0 +1,38 @@
+{
+    "channelId": {
+        "pokemon": {
+            "minLevel": 1,
+            "maxLevel": 100,
+            "minPokemon": 1,
+            "maxPokemon": 6,
+            "legal": {
+                "types": [],
+                "species": [],
+                "rarity": []
+            },
+            "illegal": {
+                "types": [],
+                "species": [],
+                "rarity": []
+            }
+        },
+        "moves": {
+            "legal": {
+                "types": [],
+                "names": []
+            },
+            "illegal": {
+                "types": [],
+                "names": []
+            }
+        },
+        "abilities": {
+            "legal": [],
+            "illegal": []
+        },
+        "items": {
+            "legal": [],
+            "illegal": []
+        }
+    }
+}

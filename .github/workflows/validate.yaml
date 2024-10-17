@@ -1,0 +1,33 @@
+name: Validation
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches: 
+      - master
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Get changed files
+        run: |
+          git diff --name-only --diff-filter=A ${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }} > added_files.txt
+          git diff --name-only --diff-filter=ac ${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }} > changed_files.txt
+      - name: Verify changed files
+        run: |
+          if grep -vq '\.json$' changed_files.txt || grep -Eq 'allow\.json' changed_files.txt || grep -Eq 'sample\.json' changed_files.txt; then
+            echo "Unauthorized"
+            exit 1
+          fi
+      - name: Verify new files
+        run: |
+          if grep -vq '\.json$' added_files.txt; then
+            echo "Only JSON Files Are Allowed"
+            exit 1
+          fi
+      - name: Run Validation
+        run: |
+          node validate.js ${{ github.event.pull_request.user.login }} $(cat added_files.txt) $(cat changed_files.txt)
