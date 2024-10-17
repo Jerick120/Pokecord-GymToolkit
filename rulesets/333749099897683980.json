@@ -1,0 +1,38 @@
+{
+    "1257054038332276860": {
+        "pokemon": {
+            "minLevel": 45,
+            "maxLevel": 50,
+            "minPokemon": 4,
+            "maxPokemon": 6,
+            "legal": {
+                "types": [],
+                "species": [],
+                "rarity": []
+            },
+            "illegal": {
+                "types": ["Fairy"],
+                "species": ["Archaludon"],
+                "rarity": ["legendary","paradox"]
+            }
+        },
+        "moves": {
+            "legal": {
+                "types": [],
+                "names": []
+            },
+            "illegal": {
+                "types": ["Fairy"],
+                "names": ["baton-pass","minimize","outrage","draco-meteor","destiny-bond","revival-blessing"]
+            }
+        },
+        "abilities": {
+            "legal": [],
+            "illegal": ["Shadow Tag"]
+        },
+        "items": {
+            "legal": [],
+            "illegal": ["garchompite","salamencite","dragonium-z","kommonium-z"]
+        }
+    }
+}
