@@ -68,8 +68,8 @@ for (const f of dir) {
             ruleset.pokemon.minPokemon > 6) throw ('Min-Max Out Of Bounds')
         if (ruleset.pokemon.maxLevel < ruleset.pokemon.minLevel ||
             ruleset.pokemon.maxPokemon < ruleset.pokemon.minPokemon) throw ('Min Values Cannot Be Higher Than Max Values')
-        const checkGens = ruleset.allowedGens.filter(f => typeof f !== 'number' && f || !f)
-        if (checkGens.length || ruleset.allowedGens.length > 20) throw (`Invalid Allowed Gens`)
+        const checkGens = ruleset.pokemon.allowedGens.filter(f => typeof f !== 'number' && f || !f)
+        if (checkGens.length || ruleset.pokemon.allowedGens.length > 20) throw (`Invalid Allowed Gens`)
         for (const ruleType of allowedKeys) {
             const missingFilterTypes = ['legal', 'illegal'].filter(f => !ruleset[ruleType].hasOwnProperty(f))
             if (missingFilterTypes.length) throw (`Missing Required JSON Keys: ${ruleType} [${missingFilterTypes.join()}]`)
