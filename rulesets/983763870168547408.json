@@ -1,0 +1,40 @@
+{
+    "1296709129267712050": {
+        "description": "Pokegyms Test",
+        "pokemon": {
+            "minLevel": 1,
+            "maxLevel": 70,
+            "minPokemon": 1,
+            "maxPokemon": 5,
+            "allowedGens": [1,2,3,4,5,6,7,8],
+            "legal": {
+                "types": ["Fighting", "Flying", "Normal"],
+                "species": ["Groudon"],
+                "rarity": ["common","regional","special","mythical"]
+            },
+            "illegal": {
+                "types": ["Steel"],
+                "species": [],
+                "rarity": ["paradox"]
+            }
+        },
+        "moves": {
+            "legal": {
+                "types": [],
+                "names": []
+            },
+            "illegal": {
+                "types": ["Water"],
+                "names": ["curse"]
+            }
+        },
+        "abilities": {
+            "legal": [],
+            "illegal": ["Swarm"]
+        },
+        "items": {
+            "legal": [],
+            "illegal": ["life-orb"]
+        }
+    }
+}
