@@ -30,7 +30,7 @@
         },
         "abilities": {
             "legal": [],
-            "illegal": ["swarm"]
+            "illegal": ["Swarm"]
         },
         "items": {
             "legal": [],
