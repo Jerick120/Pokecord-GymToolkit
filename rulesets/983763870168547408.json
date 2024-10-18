@@ -8,8 +8,8 @@
             "maxPokemon": 5,
             "allowedGens": [1,2,3,4,5,6,7,8],
             "legal": {
-                "types": ["Fighting", "Flying", "Normal"],
-                "species": ["Groudon"],
+                "types": ["Normal","Grass","Fire","Ice"],
+                "species": [],
                 "rarity": ["common","regional","special","mythical"]
             },
             "illegal": {
@@ -24,17 +24,17 @@
                 "names": []
             },
             "illegal": {
-                "types": ["Water"],
-                "names": ["curse"]
+                "types": [],
+                "names": []
             }
         },
         "abilities": {
             "legal": [],
-            "illegal": ["Swarm"]
+            "illegal": ["Moxie"]
         },
         "items": {
             "legal": [],
-            "illegal": ["life-orb"]
+            "illegal": ["life-orb","abomasite"]
         }
     }
 }
