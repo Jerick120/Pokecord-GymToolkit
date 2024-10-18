@@ -9,7 +9,7 @@
             "allowedGens": [1,2,3,4,5,6,7,8],
             "legal": {
                 "types": [],
-                "species": ["Groudon"],
+                "species": [""],
                 "rarity": ["common","regional","special","mythical"]
             },
             "illegal": {
