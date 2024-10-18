@@ -7,15 +7,14 @@
             "minPokemon": 1,
             "maxPokemon": 6,
             "allowedGens": [],
+            "allowedRarities": ["common","regional","special","mythical","paradox"],
             "legal": {
                 "types": ["Fire","Water","Grass"],
-                "species": ["Charizard"],
-                "rarity": ["common","regional","special","mythical","paradox"]
+                "species": ["Charizard"]
             },
             "illegal": {
                 "types": ["Ground"],
-                "species": ["Charizard"],
-                "rarity": []
+                "species": ["Charizard"]
             }
         },
         "moves": {
@@ -45,15 +44,14 @@
             "minPokemon": 3,
             "maxPokemon": 6,
             "allowedGens": [],
+            "allowedRarities": ["common","regional","special","mythical","paradox"],
             "legal": {
                 "types": ["Fire","Water","Grass"],
-                "species": [],
-                "rarity": ["common","regional","special","mythical","paradox"]
+                "species": []
             },
             "illegal": {
                 "types": ["Ground"],
-                "species": [],
-                "rarity": []
+                "species": []
             }
         },
         "moves": {

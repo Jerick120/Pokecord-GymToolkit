@@ -49,7 +49,7 @@ for (const f of dir) {
     const data = require(`${rulesetDir}/${f}`)
     const allowedKeys = ['pokemon', 'moves', 'abilities', 'items']
     const allowedFilters = {
-        pokemon: ['types', 'species', 'rarity'],
+        pokemon: ['types', 'species'],
         moves: ['types', 'names']
     }
     const channelIds = Object.keys(data)
@@ -60,6 +60,8 @@ for (const f of dir) {
         const ruleset = data[c]
         const checkAllowedKeys = allowedKeys.filter(f => !ruleset.hasOwnProperty(f))
         if (checkAllowedKeys.length) throw (`Missing Required JSON Keys: ${checkAllowedKeys.join()}`)
+        if (ruleset.description.length > 200) throw ('Description Exceeded 200 Chars')
+        if (typeof ruleset.description !== 'string') throw ('Description Must Be A String')
         const validateMinMax = ['minLevel', 'maxLevel', 'minPokemon', 'maxPokemon'].filter(f => typeof ruleset.pokemon[f] !== 'number')
         if (validateMinMax.length) throw (`Non Number Min-Max Values: ${validateMinMax.join()}`)
         if (ruleset.pokemon.minLevel < 1 ||
@@ -70,8 +72,7 @@ for (const f of dir) {
             ruleset.pokemon.maxPokemon < ruleset.pokemon.minPokemon) throw ('Min Values Cannot Be Higher Than Max Values')
         const checkGens = ruleset.pokemon.allowedGens.filter(f => typeof f !== 'number' && f || !f)
         if (checkGens.length || ruleset.pokemon.allowedGens.length > 20) throw (`Invalid Allowed Gens`)
-        if (ruleset.description.length > 200) throw ('Description Exceeded 200 Chars')
-        if (typeof ruleset.description !== 'string') throw ('Description Must Be A String')
+        validateFilters(ruleset.pokemon.allowedRarities, 'rarity')
         for (const ruleType of allowedKeys) {
             const missingFilterTypes = ['legal', 'illegal'].filter(f => !ruleset[ruleType].hasOwnProperty(f))
             if (missingFilterTypes.length) throw (`Missing Required JSON Keys: ${ruleType} [${missingFilterTypes.join()}]`)

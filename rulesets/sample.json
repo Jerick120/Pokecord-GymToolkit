@@ -7,15 +7,14 @@
             "minPokemon": 1,
             "maxPokemon": 6,
             "allowedGens": [],
+            "allowedRarities": [],
             "legal": {
                 "types": [],
-                "species": [],
-                "rarity": []
+                "species": []
             },
             "illegal": {
                 "types": [],
-                "species": [],
-                "rarity": []
+                "species": []
             }
         },
         "moves": {

@@ -7,15 +7,14 @@
             "minPokemon": 1,
             "maxPokemon": 5,
             "allowedGens": [1,2,3,4,5,6,7,8],
+            "allowedRarities": ["common","regional","special","mythical"],
             "legal": {
                 "types": ["Normal","Grass","Fire","Ice"],
-                "species": [],
-                "rarity": ["common","regional","special","mythical"]
+                "species": []
             },
             "illegal": {
                 "types": ["Steel"],
-                "species": [],
-                "rarity": ["paradox"]
+                "species": []
             }
         },
         "moves": {
