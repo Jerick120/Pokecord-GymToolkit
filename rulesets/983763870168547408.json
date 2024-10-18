@@ -8,7 +8,7 @@
             "maxPokemon": 5,
             "allowedGens": [1,2,3,4,5,6,7,8],
             "legal": {
-                "types": ["Fighting", "Flying", "Normal"],
+                "types": [],
                 "species": ["Groudon"],
                 "rarity": ["common","regional","special","mythical"]
             },
