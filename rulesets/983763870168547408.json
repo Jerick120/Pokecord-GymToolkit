@@ -24,7 +24,7 @@
                 "names": []
             },
             "illegal": {
-                "types": ["water"],
+                "types": ["Water"],
                 "names": ["curse"]
             }
         },
