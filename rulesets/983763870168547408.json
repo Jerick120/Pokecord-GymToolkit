@@ -27,7 +27,7 @@
                 "names": ["dragon-ascent","last-respects","shed-tail","minimize"]
             }
         },
-        "abilities": {Z
+        "abilities": {
             "legal": [],
             "illegal": ["Shadow Tag"]
         },
