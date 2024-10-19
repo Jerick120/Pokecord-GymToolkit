@@ -33,7 +33,7 @@
         },
         "items": {
             "legal": [],
-            "illegal": ["blue-orb","red-orb","rusted-sword","rusted-shield","king's-rock","razor-fang","bright-powder","gengarite"]
+            "illegal": ["blue-orb","red-orb","rusted-sword","rusted-shield","king`s-rock","razor-fang","bright-powder","gengarite"]
         }
     }
 }
