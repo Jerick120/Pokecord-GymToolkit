@@ -3,24 +3,24 @@
         "description": "Pokegyms Test",
         "pokemon": {
             "minLevel": 1,
-            "maxLevel": 70,
+            "maxLevel": 100,
             "minPokemon": 1,
-            "maxPokemon": 5,
+            "maxPokemon": 6,
             "allowedGens": [1,2,3,4,5,6,7,8],
-            "allowedRarities": ["common","regional","special","mythical"],
+            "allowedRarities": ["common","regional","special","mythical","paradox","ultrabeast","legendary"],
             "legal": {
-                "types": ["Normal","Grass","Fire","Ice"],
+                "types": ["Normal", "Fire", "Fighting", "Water", "Flying", "Grass", "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon", "Ghost", "Dark", "Steel", "Fairy"],
                 "species": []
             },
             "illegal": {
-                "types": ["Steel"],
-                "species": []
+                "types": [],
+                "species": ["Ho Oh","Miraidon","Koraidon","Necrozma Dusk Mane","Calyrex Shadow","Ting Lu"]
             }
         },
         "moves": {
             "legal": {
                 "types": [],
-                "names": []
+                "names": ["Dragon Ascent","Last Respects","Shed Tail","Minimize"]
             },
             "illegal": {
                 "types": [],
@@ -29,11 +29,11 @@
         },
         "abilities": {
             "legal": [],
-            "illegal": ["Moxie"]
+            "illegal": ["Shadow Tag"]
         },
         "items": {
             "legal": [],
-            "illegal": ["life-orb","abomasite"]
+            "illegal": ["blue-orb","red-orb","rusted-sword","rusted-shield","king's-rock","razor-fang","bright-powder","gengarite"]
         }
     }
 }
