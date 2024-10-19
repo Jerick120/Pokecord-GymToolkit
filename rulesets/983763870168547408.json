@@ -24,7 +24,7 @@
             },
             "illegal": {
                 "types": [],
-                "names": ["Dragon Ascent","Last Respects","Shed Tail","Minimize"]
+                "names": ["dragon-ascent","last-respects","shed-tail","minimize"]
             }
         },
         "abilities": {
