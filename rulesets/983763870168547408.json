@@ -20,11 +20,11 @@
         "moves": {
             "legal": {
                 "types": [],
-                "names": ["Dragon Ascent","Last Respects","Shed Tail","Minimize"]
+                "names": []
             },
             "illegal": {
                 "types": [],
-                "names": []
+                "names": ["Dragon Ascent","Last Respects","Shed Tail","Minimize"]
             }
         },
         "abilities": {
