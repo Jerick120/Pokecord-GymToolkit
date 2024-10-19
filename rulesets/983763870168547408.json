@@ -27,13 +27,13 @@
                 "names": ["dragon-ascent","last-respects","shed-tail","minimize"]
             }
         },
-        "abilities": {
+        "abilities": {Z
             "legal": [],
             "illegal": ["Shadow Tag"]
         },
         "items": {
             "legal": [],
-            "illegal": ["blue-orb","red-orb","rusted-sword","rusted-shield","king`s-rock","razor-fang","bright-powder","gengarite"]
+            "illegal": ["blue-orb","red-orb","rusted-sword","rusted-shield","kings-rock","razor-fang","bright-powder","gengarite"]
         }
     }
 }
