@@ -14,7 +14,7 @@
             },
             "illegal": {
                 "types": [],
-                "species": ["Ho Oh","Miraidon","Koraidon","Necrozma Dusk Mane","Calyrex Shadow","Ting Lu"]
+                "species": ["Ho Oh","Miraidon","Koraidon","Necrozma Dusk Mane","Calyrex Shadow","Ting Lu","Palafin","Gholdengo","Ferrothorn","Kingambit","Sneasler","Ursaluna Bloodmoon"]
             }
         },
         "moves": {
@@ -24,16 +24,16 @@
             },
             "illegal": {
                 "types": [],
-                "names": ["dragon-ascent","last-respects","shed-tail","minimize"]
+                "names": ["dragon-ascent","last-respects","shed-tail","minimize","rage-fist","population-bomb","baton-pass"]
             }
         },
         "abilities": {
             "legal": [],
-            "illegal": ["Shadow Tag"]
+            "illegal": ["Shadow Tag","Defiant"]
         },
         "items": {
             "legal": [],
-            "illegal": ["blue-orb","red-orb","rusted-sword","rusted-shield","kings-rock","razor-fang","bright-powder","gengarite"]
+            "illegal": ["blue-orb","red-orb","rusted-sword","rusted-shield","kings-rock","razor-fang","bright-powder","gengarite","blazikenite","kangaskhanite","alakazite","lucarionite","metagrossite","salamencite"]
         }
     }
 }
