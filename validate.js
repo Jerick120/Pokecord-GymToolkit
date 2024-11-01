@@ -29,7 +29,7 @@ const validateFilters = (filter, type) => {
                     const splitParsed = s.split('')
                     const first = splitParsed.shift()
                     if (!arrUpper.includes(first) ||
-                        splitParsed.filter(f => !arrLower.includes(f)).length) throw (`Invalid Value: ${type}->${f}`)
+                        splitParsed.some(s => !arrLower.includes(s))) throw (`Invalid Value: ${type}->${f}`)
                 }
             }
             break
@@ -39,7 +39,7 @@ const validateFilters = (filter, type) => {
                 if (typeof f !== 'string') throw (`Non String Value: ${type}->${f}`)
                 for (const s of f.split('-')) {
                     const splitParsed = s.split('')
-                    if (splitParsed.filter(f => !arrLower.includes(f)).length) throw (`Invalid Value: ${type}->${f}`)
+                    if (splitParsed.some(s => !arrLower.includes(s))) throw (`Invalid Value: ${type}->${f}`)
                 }
             }
             break
