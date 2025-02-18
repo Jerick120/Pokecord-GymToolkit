@@ -18,7 +18,7 @@ jobs:
           git diff --name-only --diff-filter=ac ${{ github.event.pull_request.base.sha }}...${{ github.event.pull_request.head.sha }} > changed_files.txt
       - name: Verify changed files
         run: |
-          if grep -vq '\.json$' changed_files.txt || grep -Eq 'allow\.json' changed_files.txt || grep -Eq 'sample\.json' changed_files.txt; then
+          if grep -vq '\.json$' changed_files.txt || grep -Eq 'allow\.json' changed_files.txt || grep -Eq 'sample\.json' changed_files.txt || grep -Eq 'spawns\.json' changed_files.txt; then
             echo "Unauthorized"
             exit 1
           fi

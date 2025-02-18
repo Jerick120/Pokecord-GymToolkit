@@ -5,7 +5,16 @@
         "perish-song",
         "guillotine",
         "horn-drill",
-        "sheer-cold"
+        "sheer-cold",
+        "ice-burn",
+        "freeze-shock",
+        "sunsteel-strike",
+        "moongeist-beam",
+        "prismatic-laser",
+        "glacial-lance",
+        "astral-barrage",
+        "eternabeam",
+        "gigaton-hammer"
     ],
     "abilities": [
         "Perish Body"
